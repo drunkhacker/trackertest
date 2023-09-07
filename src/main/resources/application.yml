@@ -1,0 +1,11 @@
+tcp:
+  nio: true
+  port: 9988
+  supplier:
+    decoder: CRLF
+logging:
+  level:
+#    root: DEBUG
+    jayhan.trackertest.TrackertestApplication: DEBUG
+server:
+  port: 18889
